@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useState } from 'react';
@@ -117,7 +116,7 @@ export default function Home() {
       {/* Footer Branding */}
       <footer className="mt-20 py-8 border-t border-white/5 w-full text-center">
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} AI Movie Insight Builder. Powered by Genkit & Gemini.
+          &copy; {new Date().getFullYear()} AI Movie Insight Builder.
         </p>
       </footer>
     </main>
