@@ -19,7 +19,7 @@ Backend:
 - Next.js API Routes
 
 AI:
-- OpenAI API
+- Gemini API
 
 Deployment:
 - Vercel
