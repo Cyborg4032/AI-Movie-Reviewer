@@ -1,5 +1,34 @@
-# Firebase Studio
+# AI Movie Insight Builder
 
-This is a NextJS starter in Firebase Studio.
+This project allows users to enter an IMDb ID and get movie insights powered by AI.
 
-To get started, take a look at src/app/page.tsx.
+## Features
+
+- Fetch movie details from OMDb API
+- Display title, poster, rating, plot
+- AI generated sentiment summary from reviews
+- Responsive UI built with Next.js
+
+## Tech Stack
+
+Frontend:
+- Next.js
+- Tailwind CSS
+
+Backend:
+- Next.js API Routes
+
+AI:
+- OpenAI API
+
+Deployment:
+- Vercel
+
+## Setup
+
+npm install
+npm run dev
+
+## Assumptions
+
+Reviews are simulated for sentiment analysis.
